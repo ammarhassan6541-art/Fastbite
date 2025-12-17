@@ -329,7 +329,7 @@ export default function ContactSection() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="tel:+923310168702"
+                  href="tel:+923436541891"
                   className="flex-1 bg-blue-50 text-blue-700 p-4 rounded-xl text-center font-semibold hover:bg-blue-100 transition-colors"
                 >
                   <FaPhone className="inline mr-2 text-lg" />

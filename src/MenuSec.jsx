@@ -1,11 +1,20 @@
+
+import img  from "./istockphoto-1254672762-612x612.jpg"
+import img2  from "./ai-generated-freshly-fried-gourmet-french-fries-a-crunchy-and-unhealthy-snack-generated-by-ai-photo.jpg"
+import img3  from "./istockphoto-1471609071-612x612.jpg"
+import img4  from "./360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg"
+import img5  from "./2-step-spam-grilled-cheese-655.jpg"
+import img6  from "./istockphoto-1126893721-612x612.jpg"
+
+
 export function MenuSection() {
     const menuItems = [
-        { title: 'Cheese Burger', price: '$5.99', image: 'istockphoto-1254672762-612x612.jpg' },
-        { title: 'French Fries', price: '$2.99', image: 'ai-generated-freshly-fried-gourmet-french-fries-a-crunchy-and-unhealthy-snack-generated-by-ai-photo.jpg' },
-        { title: 'Chicken Nuggets', price: '$4.99', image: 'istockphoto-1471609071-612x612.jpg' },
-        { title: 'Veggie Pizza', price: '$8.49', image: '360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg' },
-        { title: 'Grilled Sandwich', price: '$3.99', image: '2-step-spam-grilled-cheese-655.jpg' },
-        { title: 'Chocolate Milkshake', price: '$2.49', image: 'istockphoto-1126893721-612x612.jpg' },
+        { title: 'Cheese Burger', price: '$5.99', image: img},
+        { title: 'French Fries', price: '$2.99', image: img2 },
+        { title: 'Chicken Nuggets', price: '$4.99', image: img3 },
+        { title: 'Veggie Pizza', price: '$8.49', image : img4  },
+        { title: 'Grilled Sandwich', price: '$3.99', image: img5  },
+        { title: 'Chocolate Milkshake', price: '$2.49', image : img6},
 
     ];
 
